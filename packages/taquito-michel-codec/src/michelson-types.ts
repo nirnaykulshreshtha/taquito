@@ -195,7 +195,7 @@ export enum Protocol {
 
 export const DefaultProtocol = Protocol.PsDELPH1;
 
-export type ProtocolID = `${Protocol}`;
+export type ProtocolID = Protocol;
 
 export interface ProtocolOptions {
     protocol?: ProtocolID;
